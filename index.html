@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldtrip</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Poor Story', system-ui;
+        }
+        body {
+            background-color: black;
+        }
+        section {
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            grid-template-columns: auto auto;
+            border-radius: 100px;
+            background-color: white;
+            box-shadow: 0 0 10px 3px rgb(255, 255, 255);
+        }
+        main { 
+            display: grid;
+            place-items: center;
+            padding: 100px;
+            backdrop-filter: blur(20px);
+        }
+        div {
+            min-height: 70vh;
+            min-width: 30vw;
+        }
+        .image {
+            animation: slider 15s;
+            animation-iteration-count: infinite;
+            transition: 0.5s;
+            background-color: white;
+            height: 100%;
+        }
+        .text {
+            background-color: white;
+            padding: 1rem; 
+            text-align: justify;
+            font-size: 20px;
+        }
+        @keyframes slider {
+            from {
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537422169739345/received_782534863890705.jpg?ex=65ca2dec&is=65b7b8ec&hm=90519f870af7c39533cc344a310a5f4600f1524d2dff4db75e3093eea445aeb1&=&format=webp&width=664&height=498') no-repeat;
+                background-size: cover;
+            }
+            20% {
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537423872639137/received_862762418934557.jpg?ex=65ca2ded&is=65b7b8ed&hm=75ece3dc9362849467dd82deb97b0cdf25240081a01fa845fce7c39f09b5c823&=&format=webp&width=664&height=498') no-repeat;
+                background-size: cover; 
+            }
+            40% {
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537424220749874/received_397458076280091.jpg?ex=65ca2ded&is=65b7b8ed&hm=0ddbf38fc287f37439a36c9db0079d477717a821e5a508e674c37716321835e9&=&format=webp&width=666&height=498') no-repeat;
+                background-size: cover; 
+            }
+            60% {
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537470429401140/received_225159807316174.jpg?ex=65ca2df8&is=65b7b8f8&hm=8d65906470d3ef260340b5af4c6f442d2097f9150f65d78357b718327c59a56e&=&format=webp&width=664&height=498') no-repeat;
+                background-size: cover;   
+            }
+            80% {
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537470752370768/received_237932216021500.jpg?ex=65ca2df8&is=65b7b8f8&hm=7ce3dd655023ea80bf6588b9f53f349e975bec185a141fbf7810975fcdf1bba4&=&format=webp&width=664&height=498') no-repeat;
+                background-size: cover;    
+            }
+            100%{
+
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537422756954152/received_1065214928033231.jpg?ex=65ca2ded&is=65b7b8ed&hm=f280fd85aaed396594a619a0ed9b14297d614de42705af0f0e89af2502c9982b&=&format=webp&width=664&height=498') no-repeat;
+                background-size: cover;
+            }
+            to {
+                background: url('https://media.discordapp.net/attachments/1201536927652917389/1201537422169739345/received_782534863890705.jpg?ex=65ca2dec&is=65b7b8ec&hm=90519f870af7c39533cc344a310a5f4600f1524d2dff4db75e3093eea445aeb1&=&format=webp&width=664&height=498') no-repeat;
+                background-size: cover;
+            }
+        }
+    </style>
+</head>
+<body class="image">
+    <main>
+    <section>
+        <div class="image" id="image">
+        </div>
+        <div class="text" id="text">
+            <h1> SHS in SN3 Fieldtrip</h1>
+            <h3>-Kris Ezekiel A. Ballo-Allo</h3><br><br>
+            <p>Exploring the Subic Safari was an enchanting experience that filled my heart with joy. The diverse array of animals, from majestic lions to playful monkeys, captivated my senses, creating unforgettable moments of connection with nature. Amidst the captivating wildlife, the stunning backdrop of Subic, with its lush landscapes and breathtaking views of Subic Bay, added an extra layer of magic to the adventure. Witnessing both the wonders of the animal kingdom and the beauty of Subic's surroundings made this field trip an absolute delight, leaving me with cherished memories and a deep appreciation for the wonders of our natural world.<br><br>
+            During our enjoyable field trip to Subic, my friends and I had a great time. We began with laughter on the bus, soaking in the scenic views. We found joy in exploring the surroundings and bonding over shared moments.We are grateful for the simple yet memorable moments of fun and friendship during our brief Subic field trip.
+            </p>
+        </div>
+    </section>
+</main>
+</body>
+</html>
